@@ -14,13 +14,261 @@ a {
     text-decoration: none;
 }
 
+.content {
+    position: relative;
+
+}
+
 .content1 {
     width: 100%;
     min-height: 648px;
-    background: url(../img/2020_xams2_bg.jpg) no-repeat;
-    background-color: #000000;
+    background: url(../img/2020_xams2_bg.jpg) center center no-repeat;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
 }
 
-.content1 li {
+.carry {
+    width: 1080px;
+    height: 646px;
+    position: relative;
+    margin: auto;
+}
+
+.img1 {
+    position: absolute;
+    left: 43%;
+    bottom: 22%;
+
+}
+
+.img2 {
+    position: absolute;
+    left: 64%;
+    bottom: 29%;
+}
+
+.img3 {
+    position: absolute;
+    left: 32.1%;
+    bottom: 13%;
+    z-index: 5;
+}
+
+.img4 {
+    position: absolute;
+    left: 55%;
+    bottom: 16%;
+}
+
+.img5 {
+    position: absolute;
+    left: 81.3%;
+    bottom: 17%;
+}
+
+.img6 {
+    position: absolute;
+    left: 23%;
+    bottom: 17%;
+}
+
+.img7 {
+    position: absolute;
+    left: 73.8%;
+    bottom: 12%;
+}
+
+.image2 {
+    position: absolute;
+    left: 15%;
+    top: -35%;
+}
+
+.image4 {
+    position: absolute;
+    left: -5%;
+    top: -30%;
+}
+
+.image6 {
+    position: absolute;
+    left: -5%;
+    bottom: -25%;
+}
+
+.image8 {
+    position: absolute;
+    left: 5%;
+    bottom: -15%;
+}
+
+.image10 {
+    position: absolute;
+    left: 0%;
+    top: -28%;
+}
+
+.image12 {
+    position: absolute;
+    left: -82%;
+    bottom: 12%;
+}
+
+.image14 {
+    position: absolute;
+    left: 2%;
+    bottom: -20%;
+}
+
+.slogan {
+    position: absolute;
+    top: 10%;
+}
+
+.close1 {
+    color: #ffffff;
+    font-size: 16px;
+    width: 120px;
+    border: 3px solid #ffffff;
+    border-radius: 2px;
+    padding: 9px 2px;
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    text-align: center;
+}
+
+.close1 a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.close1 a:link {
+    text-decoration: underline;
+    color: #ffffff;
+
+}
+
+.close1 a:hover {
+    width: 100%;
+    height: 100%;
+    text-decoration: underline;
+    color: #ffffff;
+    background-color: #00ff00;
+
+}
+
+.content2 {
+    width: 100%;
+    min-height: 62px;
+    margin: auto;
+
+    position: relative;
+}
+
+.gongji1 {
+    display: block;
+    width: 50%;
+    min-width: 650px;
+    height: 62px;
     float: left;
+    background-color: #000000;
+    position: relative;
+    font-size: 14px;
+}
+
+.notice {
+    display: block;
+    position: absolute;
+    left: 150px;
+    top: 20px;
+}
+
+.gong1 {
+    display: block;
+    position: absolute;
+    left: 250px;
+    top: 22px;
+    min-width: 520px;
+    float: left;
+}
+
+.gong1 a {
+    width: 100%;
+    color: #ffffff;
+}
+
+.gong2 {
+    display: none;
+}
+
+.gong3 {
+    display: none;
+}
+
+.icon1 {
+    display: block;
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    top: 12px;
+    right: 15px;
+    float: left;
+}
+
+.icon1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.gongji2 {
+    display: inline-block;
+    width: 50%;
+    min-width: 650px;
+    float: left;
+    background-color: #ffffff;
+    position: relative;
+}
+
+.prom1 {
+    display: block;
+    position: absolute;
+    left: 150px;
+    top: 21px;
+    width: 129px;
+    height: 17px;
+}
+
+.prom1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.btn1 {
+    display: block;
+    position: absolute;
+    top: 12px;
+    left: 350px;
+}
+
+.menu1,
+.menu2,
+.menu3,
+.menu4 {
+    display: none;
+}
+
+.btn2 {
+    display: none;
+}
+
+
+
+
+
+.content3 {
+    min-height: 237px;
+    background-color: #ff00f0;
 }

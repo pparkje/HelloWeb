@@ -15,8 +15,8 @@ a {
 }
 
 .content {
+    width: 100%;
     position: relative;
-
 }
 
 .content1 {
@@ -26,6 +26,7 @@ a {
     margin: auto;
     overflow: hidden;
     position: relative;
+    background-size: cover;
 }
 
 .carry {
@@ -164,14 +165,31 @@ a {
     width: 100%;
     min-height: 62px;
     margin: auto;
-
     position: relative;
+    margin-top: -2px;
+}
+
+.gongback {
+    width: 50%;
+    height: 62px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #000000;
+    background-size: cover;
+
+}
+
+.contentprom {
+    width: 1280px;
+    height: 62px;
+    position: relative;
+    margin: auto;
 }
 
 .gongji1 {
     display: block;
     width: 50%;
-    min-width: 650px;
     height: 62px;
     float: left;
     background-color: #000000;
@@ -180,16 +198,22 @@ a {
 }
 
 .notice {
+    width: auto;
+    height: 62px;
+    margin-left: 500px;
+}
+
+.notice1 {
     display: block;
     position: absolute;
-    left: 150px;
+    left: 50px;
     top: 20px;
 }
 
 .gong1 {
     display: block;
     position: absolute;
-    left: 250px;
+    left: 150px;
     top: 22px;
     min-width: 520px;
     float: left;
@@ -223,10 +247,14 @@ a {
     height: 100%;
 }
 
+.prom {
+    width: 550px;
+    position: relative;
+}
+
 .gongji2 {
-    display: inline-block;
+    display: block;
     width: 50%;
-    min-width: 650px;
     float: left;
     background-color: #ffffff;
     position: relative;
@@ -263,10 +291,6 @@ a {
 .btn2 {
     display: none;
 }
-
-
-
-
 
 .content3 {
     min-height: 237px;

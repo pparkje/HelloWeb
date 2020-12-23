@@ -16,6 +16,8 @@ a {
 
 .content {
     width: 100%;
+    margin-top: 120px;
+    min-height: 3900px;
     position: relative;
 }
 
@@ -27,6 +29,7 @@ a {
     overflow: hidden;
     position: relative;
     background-size: cover;
+    z-index: 5;
 }
 
 .carry {
@@ -129,7 +132,7 @@ a {
 
 .close1 {
     color: #ffffff;
-    font-size: 16px;
+    font-size: 14px;
     width: 120px;
     border: 3px solid #ffffff;
     border-radius: 2px;
@@ -147,7 +150,7 @@ a {
 }
 
 .close1 a:link {
-    text-decoration: underline;
+    text-decoration: none;
     color: #ffffff;
 
 }
@@ -166,7 +169,8 @@ a {
     min-height: 62px;
     margin: auto;
     position: relative;
-    margin-top: -2px;
+    margin-top: -1px;
+    z-index: 5;
 }
 
 .gongback {
@@ -178,6 +182,16 @@ a {
     background-color: #000000;
     background-size: cover;
 
+}
+
+.gongback1 {
+    width: 50%;
+    height: 62px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: #ffffff;
+    background-size: cover;
 }
 
 .contentprom {
@@ -206,14 +220,14 @@ a {
 .notice1 {
     display: block;
     position: absolute;
-    left: 50px;
+    left: 180px;
     top: 20px;
 }
 
 .gong1 {
     display: block;
     position: absolute;
-    left: 150px;
+    left: 270px;
     top: 22px;
     min-width: 520px;
     float: left;
@@ -263,10 +277,11 @@ a {
 .prom1 {
     display: block;
     position: absolute;
-    left: 150px;
+    left: 100px;
     top: 21px;
     width: 129px;
     height: 17px;
+
 }
 
 .prom1 img {
@@ -278,7 +293,7 @@ a {
     display: block;
     position: absolute;
     top: 12px;
-    left: 350px;
+    left: 300px;
 }
 
 .menu1,
@@ -293,6 +308,252 @@ a {
 }
 
 .content3 {
+    width: auto;
     min-height: 237px;
-    background-color: #ff00f0;
+    background-color: #1e3932;
+    position: relative;
+    z-index: 5;
+}
+
+.rewards {
+    width: 176px;
+    display: block;
+    position: absolute;
+    left: 210px;
+    top: 30px;
+}
+
+.rewards_desc {
+    display: block;
+    width: 800px;
+    height: 237px;
+    position: absolute;
+    top: 30px;
+    left: 420px;
+}
+
+.desc1 {
+    display: block;
+    color: #ffffff;
+    font-size: 26px;
+}
+
+.desc2 {
+    display: block;
+    color: #ffffff;
+    font-size: 17px;
+    line-height: 25px;
+}
+
+.desc3 {
+    display: block;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.hg {
+    display: block;
+    width: 90px;
+    height: 34px;
+    background-color: #00704a;
+    position: absolute;
+    top: 50px;
+    right: 100px;
+    border: 1px solid #00704a;
+    border-radius: 5px;
+    font-size: 14px;
+
+}
+
+.hg1 {
+    display: block;
+    line-height: 30px;
+
+    margin-left: 17px;
+    color: #ffffff;
+
+}
+
+.login {
+    display: block;
+    width: 90px;
+    height: 34px;
+    background-color: #1e3932;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    font-size: 14px;
+    position: absolute;
+    top: 48px;
+    right: 0px;
+}
+
+.login1 {
+    display: block;
+    line-height: 34px;
+    margin-left: 25px;
+    color: #ffffff;
+
+}
+
+.starbucks_reward {
+    border-bottom: 1px solid #555555;
+}
+
+.desc3 {
+    margin-top: 20px;
+    line-height: 20px;
+}
+
+.gift {
+    display: block;
+    width: 190px;
+    height: 34px;
+    background-color: #1e3932;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    font-size: 14px;
+    position: absolute;
+    bottom: 68px;
+    right: 0px;
+}
+
+.gift1 {
+    color: #ffffff;
+    line-height: 32px;
+    margin-left: 30px;
+}
+
+.content4 {
+    width: 100%;
+    height: 573px;
+    background: url(../img/2020_xmas_bean_bg.jpg) center center no-repeat;
+    margin: auto;
+    position: relative;
+    background-size: cover;
+    z-index: 5;
+}
+
+.bean1 {
+    position: absolute;
+    top: 13%;
+    left: 9%;
+}
+
+.bean2 {
+    position: absolute;
+    top: 31%;
+    left: 49%;
+}
+
+.bean3 {
+    color: #ffffff;
+    font-size: 14px;
+    width: 120px;
+    border: 3px solid #ffffff;
+    border-radius: 2px;
+    padding: 9px 2px;
+    position: absolute;
+    bottom: 23%;
+    left: 49%;
+    text-align: center;
+}
+
+.content5 {
+    width: 100%;
+    height: 400px;
+    background: url(../img/reserve_xmas_bg.jpg) center center no-repeat;
+    position: relative;
+    z-index: 5;
+}
+
+.reserve1 {
+    position: absolute;
+    right: 5%;
+}
+
+.reserve2 {
+    position: absolute;
+    left: 11%;
+    top: 39%;
+}
+
+.reserve3 {
+    font-size: 14px;
+    width: 120px;
+    border: 2px solid #e3b59e;
+    border-radius: 2px;
+    padding: 9px 2px;
+    position: absolute;
+    bottom: 23%;
+    left: 38%;
+    text-align: center;
+}
+
+.close3 {
+    color: #e3b59e;
+}
+
+.content6 {
+    width: 100%;
+    height: 800px;
+    background: url(../img/fav_prod_bg_new.jpg) center center no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    margin-top: 115px;
+    z-index: 1;
+}
+
+.content6_1 {
+    width: 100%;
+    height: 800px;
+    position: absolute;
+    top: 1900px;
+    z-index: 5;
+}
+
+.fav1 {
+    position: absolute;
+    top: 17%;
+    left: 20%;
+}
+
+.fav2 {
+    position: absolute;
+    top: 49%;
+    left: 12%;
+}
+
+.fav3 {
+    position: absolute;
+    top: 15%;
+    right: 5%;
+}
+
+.fav4 {
+    font-size: 14px;
+    width: 120px;
+    border: 2px solid #ffffff;
+    border-radius: 2px;
+    padding: 9px 2px;
+    position: absolute;
+    bottom: 23%;
+    left: 28%;
+    text-align: center;
+}
+
+.close4 {
+    color: #ffffff;
+}
+
+.content7 {
+    width: 100%;
+    height: 695px;
+    background-color: #ffffff;
+    background-size: cover;
+    position: relative;
+    top: 0;
+    margin-top: 800px;
+    z-index: 5;
 }

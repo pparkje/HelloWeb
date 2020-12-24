@@ -220,15 +220,15 @@ a {
 .notice1 {
     display: block;
     position: absolute;
-    left: 180px;
-    top: 20px;
+    left: 15%;
+    top: 35%;
 }
 
 .gong1 {
     display: block;
     position: absolute;
-    left: 270px;
-    top: 22px;
+    left: 30%;
+    top: 37%;
     min-width: 520px;
     float: left;
 }
@@ -251,8 +251,8 @@ a {
     width: 36px;
     height: 36px;
     position: absolute;
-    top: 12px;
-    right: 15px;
+    top: 20%;
+    right: 2%;
     float: left;
 }
 
@@ -263,6 +263,7 @@ a {
 
 .prom {
     width: 550px;
+    height: 62px;
     position: relative;
 }
 
@@ -277,8 +278,8 @@ a {
 .prom1 {
     display: block;
     position: absolute;
-    left: 100px;
-    top: 21px;
+    left: 50%;
+    top: 35%;
     width: 129px;
     height: 17px;
 
@@ -292,8 +293,8 @@ a {
 .btn1 {
     display: block;
     position: absolute;
-    top: 12px;
-    left: 300px;
+    top: 20%;
+    right: 20%;
 }
 
 .menu1,
@@ -308,28 +309,36 @@ a {
 }
 
 .content3 {
-    width: auto;
+    width: 100%;
     min-height: 237px;
     background-color: #1e3932;
     position: relative;
     z-index: 5;
 }
 
+.content3-1 {
+    width: 1200px;
+    height: 237px;
+    margin: auto;
+    position: relative;
+}
+
 .rewards {
     width: 176px;
     display: block;
     position: absolute;
-    left: 210px;
-    top: 30px;
+    left: 10%;
+    top: 15%;
 }
 
 .rewards_desc {
     display: block;
     width: 800px;
-    height: 237px;
+    height: 200px;
     position: absolute;
-    top: 30px;
-    left: 420px;
+    top: 15%;
+    left: 28%;
+    margin: auto;
 }
 
 .desc1 {
@@ -369,10 +378,8 @@ a {
 .hg1 {
     display: block;
     line-height: 30px;
-
     margin-left: 17px;
     color: #ffffff;
-
 }
 
 .login {
@@ -414,7 +421,7 @@ a {
     border-radius: 5px;
     font-size: 14px;
     position: absolute;
-    bottom: 68px;
+    bottom: 15%;
     right: 0px;
 }
 
@@ -556,4 +563,104 @@ a {
     top: 0;
     margin-top: 800px;
     z-index: 5;
+}
+
+
+
+.liner {
+    width: 1000px;
+    height: 420px;
+    border-bottom: 1px solid #d2d2d2;
+    position: absolute;
+    left: 20%;
+}
+
+.visual1 {
+    position: absolute;
+    left: 10%;
+    top: 11.5%;
+}
+
+.liner1 {
+    width: 800px;
+    height: 420px;
+    border-left: 1px solid #d2d2d2;
+    position: absolute;
+    right: 0%;
+    top: 20%;
+}
+
+.visual2 {
+    position: absolute;
+    top: 28%;
+    left: 5%;
+}
+
+.visual3 {
+    display: block;
+    position: absolute;
+    bottom: 20%;
+    left: 5%;
+}
+
+.content8 {
+    width: 100%;
+    height: 400px;
+    background: url(../img/store_bg.jpg) center center no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 0;
+    z-index: 4;
+}
+
+.store1 {
+    position: absolute;
+    top: 0%;
+    left: 17%;
+}
+
+.store2 {
+    position: absolute;
+    top: 37%;
+    left: 33%;
+}
+
+.store3 {
+    position: absolute;
+    top: -15%;
+    left: 42%;
+}
+
+.store4 {
+    position: absolute;
+    top: 25%;
+    right: 16%;
+}
+
+.store5 {
+    position: absolute;
+    top: 42%;
+    right: 17.2%;
+}
+
+.store6 {
+    position: absolute;
+    bottom: 0;
+    right: 8%;
+}
+
+.store7 {
+    font-size: 14px;
+    width: 120px;
+    border: 2px solid #000000;
+    border-radius: 3px;
+    padding: 9px 2px;
+    position: absolute;
+    bottom: 25%;
+    right: 33%;
+    text-align: center;
+}
+
+.search {
+    color: #000000;
 }

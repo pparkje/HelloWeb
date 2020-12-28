@@ -14,12 +14,17 @@ a {
     text-decoration: none;
 }
 
+.hide {
+    display: none;
+}
+
 .content {
     width: 100%;
     margin-top: 120px;
     min-height: 3900px;
     position: relative;
 }
+
 
 .content1 {
     width: 100%;
@@ -29,7 +34,7 @@ a {
     overflow: hidden;
     position: relative;
     background-size: cover;
-    z-index: 5;
+    z-index: 10010;
 }
 
 .carry {
@@ -134,33 +139,30 @@ a {
     color: #ffffff;
     font-size: 14px;
     width: 120px;
+    height: 38px;
     border: 3px solid #ffffff;
     border-radius: 2px;
-    padding: 9px 2px;
     position: absolute;
     top: 35%;
     left: 10%;
     text-align: center;
+    vertical-align: middle;
 }
 
 .close1 a {
+    padding-top: 12px;
+    color: #ffffff;
     display: block;
     width: 100%;
-    height: 100%;
 }
 
-.close1 a:link {
-    text-decoration: none;
-    color: #ffffff;
-
-}
 
 .close1 a:hover {
     width: 100%;
-    height: 100%;
+    height: 26px;
     text-decoration: underline;
     color: #ffffff;
-    background-color: #00ff00;
+    background-color: #006C42;
 
 }
 
@@ -211,6 +213,10 @@ a {
     font-size: 14px;
 }
 
+.gongji1 a {
+    color: #ffffff;
+}
+
 .notice {
     width: auto;
     height: 62px;
@@ -224,26 +230,26 @@ a {
     top: 35%;
 }
 
-.gong1 {
-    display: block;
+.gong3 {
     position: absolute;
     left: 30%;
     top: 37%;
-    min-width: 520px;
+    min-width: 400px;
+    height: 61px;
     float: left;
 }
 
-.gong1 a {
+.gong3 a {
+    display: block;
     width: 100%;
-    color: #ffffff;
+    text-decoration: none;
+    line-height: 61px;
 }
 
-.gong2 {
-    display: none;
-}
-
-.gong3 {
-    display: none;
+.gong13 {
+    width: 400px;
+    height: 61px;
+    text-align: center;
 }
 
 .icon1 {
@@ -441,10 +447,17 @@ a {
     z-index: 5;
 }
 
+.bean {
+    width: 1100px;
+    height: 573px;
+    margin: auto;
+    position: relative;
+}
+
 .bean1 {
     position: absolute;
     top: 13%;
-    left: 9%;
+    left: 0%;
 }
 
 .bean2 {
@@ -454,16 +467,19 @@ a {
 }
 
 .bean3 {
-    color: #ffffff;
     font-size: 14px;
     width: 120px;
-    border: 3px solid #ffffff;
+    border: 3px solid #555;
     border-radius: 2px;
     padding: 9px 2px;
     position: absolute;
     bottom: 23%;
     left: 49%;
     text-align: center;
+}
+
+.bean3 a {
+    color: #555;
 }
 
 .content5 {
@@ -474,15 +490,22 @@ a {
     z-index: 5;
 }
 
+.reserve {
+    width: 1200px;
+    height: 400px;
+    margin: auto;
+    position: relative;
+}
+
 .reserve1 {
     position: absolute;
-    right: 5%;
+    right: -5%;
 }
 
 .reserve2 {
     position: absolute;
-    left: 11%;
-    top: 39%;
+    left: 5%;
+    top: 33%;
 }
 
 .reserve3 {
@@ -492,8 +515,8 @@ a {
     border-radius: 2px;
     padding: 9px 2px;
     position: absolute;
-    bottom: 23%;
-    left: 38%;
+    bottom: 27%;
+    left: 37%;
     text-align: center;
 }
 
@@ -520,22 +543,29 @@ a {
     z-index: 5;
 }
 
+.fav {
+    width: 1280px;
+    height: 800px;
+    margin: auto;
+    position: relative;
+}
+
 .fav1 {
     position: absolute;
     top: 17%;
-    left: 20%;
+    left: 15%;
 }
 
 .fav2 {
     position: absolute;
     top: 49%;
-    left: 12%;
+    left: 6%;
 }
 
 .fav3 {
     position: absolute;
     top: 15%;
-    right: 5%;
+    right: 0%;
 }
 
 .fav4 {
@@ -545,8 +575,8 @@ a {
     border-radius: 2px;
     padding: 9px 2px;
     position: absolute;
-    bottom: 23%;
-    left: 28%;
+    bottom: 18%;
+    left: 24%;
     text-align: center;
 }
 
@@ -565,7 +595,12 @@ a {
     z-index: 5;
 }
 
-
+.visual {
+    width: 1240px;
+    height: 695px;
+    margin: auto;
+    position: relative;
+}
 
 .liner {
     width: 1000px;
@@ -577,7 +612,7 @@ a {
 
 .visual1 {
     position: absolute;
-    left: 10%;
+    left: 4%;
     top: 11.5%;
 }
 
@@ -586,7 +621,7 @@ a {
     height: 420px;
     border-left: 1px solid #d2d2d2;
     position: absolute;
-    right: 0%;
+    right: -10%;
     top: 20%;
 }
 
@@ -611,18 +646,26 @@ a {
     position: relative;
     top: 0;
     z-index: 4;
+    margin-bottom: 100px;
+}
+
+.store {
+    width: 1280px;
+    height: 400px;
+    margin: auto;
+    position: relative;
 }
 
 .store1 {
     position: absolute;
     top: 0%;
-    left: 17%;
+    left: 12%;
 }
 
 .store2 {
     position: absolute;
     top: 37%;
-    left: 33%;
+    left: 30%;
 }
 
 .store3 {
@@ -634,19 +677,19 @@ a {
 .store4 {
     position: absolute;
     top: 25%;
-    right: 16%;
+    right: 12%;
 }
 
 .store5 {
     position: absolute;
     top: 42%;
-    right: 17.2%;
+    right: 13.5%;
 }
 
 .store6 {
     position: absolute;
     bottom: 0;
-    right: 8%;
+    right: 3%;
 }
 
 .store7 {
@@ -657,7 +700,7 @@ a {
     padding: 9px 2px;
     position: absolute;
     bottom: 25%;
-    right: 33%;
+    right: 31%;
     text-align: center;
 }
 

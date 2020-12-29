@@ -14,17 +14,25 @@ a {
     text-decoration: none;
 }
 
-.hide {
+.hide,
+.hide1,
+.hide2,
+.hide3,
+.hide4,
+.hide5,
+.hide6 {
     display: none;
+}
+
+.hide1 {
+    visibility: hidden;
 }
 
 .content {
     width: 100%;
-    margin-top: 120px;
     min-height: 3900px;
     position: relative;
 }
-
 
 .content1 {
     width: 100%;
@@ -34,7 +42,7 @@ a {
     overflow: hidden;
     position: relative;
     background-size: cover;
-    z-index: 10010;
+    z-index: 100;
 }
 
 .carry {
@@ -201,6 +209,7 @@ a {
     height: 62px;
     position: relative;
     margin: auto;
+
 }
 
 .gongji1 {
@@ -211,6 +220,7 @@ a {
     background-color: #000000;
     position: relative;
     font-size: 14px;
+
 }
 
 .gongji1 a {
@@ -230,13 +240,65 @@ a {
     top: 35%;
 }
 
-.gong3 {
+.gong1 {
     position: absolute;
     left: 30%;
-    top: 37%;
+    top: 0%;
     min-width: 400px;
     height: 61px;
     float: left;
+    background-color: #000000;
+    z-index: 0;
+}
+
+.gong1 a {
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    line-height: 61px;
+    background-color: #000000;
+}
+
+.gong11 {
+    width: 400px;
+    height: 61px;
+    background-color: #000000;
+}
+
+.gong2 {
+    position: absolute;
+    left: 30%;
+    top: 0%;
+    min-width: 400px;
+    height: 61px;
+    float: left;
+    background-color: #000000;
+    z-index: 0;
+}
+
+.gong2 a {
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    line-height: 61px;
+    background-color: #000000;
+}
+
+.gong12 {
+    width: 400px;
+    height: 61px;
+    background-color: #000000;
+}
+
+.gong3 {
+    position: absolute;
+    left: 30%;
+    top: 0%;
+    min-width: 400px;
+    height: 61px;
+    float: left;
+    background-color: #000000;
+    z-index: 0;
 }
 
 .gong3 a {
@@ -244,15 +306,16 @@ a {
     width: 100%;
     text-decoration: none;
     line-height: 61px;
+    background-color: #000000;
 }
 
 .gong13 {
     width: 400px;
     height: 61px;
-    text-align: center;
+    background-color: #000000;
 }
 
-.icon1 {
+.icon2 {
     display: block;
     width: 36px;
     height: 36px;
@@ -262,7 +325,7 @@ a {
     float: left;
 }
 
-.icon1 img {
+.icon2 img {
     width: 100%;
     height: 100%;
 }

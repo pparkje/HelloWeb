@@ -180,7 +180,7 @@ a {
     margin: auto;
     position: relative;
     margin-top: -1px;
-    z-index: 5;
+    z-index: 100;
 }
 
 .gongback {
@@ -382,7 +382,7 @@ a {
     min-height: 237px;
     background-color: #1e3932;
     position: relative;
-    z-index: 5;
+    z-index: 100;
 }
 
 .content3-1 {
@@ -507,7 +507,7 @@ a {
     margin: auto;
     position: relative;
     background-size: cover;
-    z-index: 5;
+    z-index: 100;
 }
 
 .bean {
@@ -550,7 +550,7 @@ a {
     height: 400px;
     background: url(../img/reserve_xmas_bg.jpg) center center no-repeat;
     position: relative;
-    z-index: 5;
+    z-index: 100;
 }
 
 .reserve {
@@ -655,7 +655,7 @@ a {
     position: relative;
     top: 0;
     margin-top: 800px;
-    z-index: 5;
+    z-index: 100;
 }
 
 .visual {
@@ -708,7 +708,7 @@ a {
     background-size: cover;
     position: relative;
     top: 0;
-    z-index: 4;
+    z-index: 100;
     margin-bottom: 100px;
 }
 

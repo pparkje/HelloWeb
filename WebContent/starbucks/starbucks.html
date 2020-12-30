@@ -495,7 +495,7 @@
                 </div>
             </div>
             <div class="content2">
-                <div class="gongback aaaaaa"></div>
+                <div class="gongback"></div>
                 <div class="gongback1"></div>
                 <div class="contentprom">
                     <ul class="gongji1">
@@ -534,9 +534,48 @@
                             </a>
                         </li>
                     </ul>
-                    <ul class="gongji3">
-                        <li></li>
-                    </ul>
+                </div>
+            </div>
+            <div class="content2-1">
+                <div class="slide-container">
+                    <div class="slides">
+                        <div class="slides-center">
+                            <div class="aa1">
+                                <ul class="slides-container">
+                                    <li class="porm_img1">
+                                        <img src="img/uX1xA2_20191227175905000.jpg">
+                                        <span><a href="#">자세히 보기</a></span>
+                                    </li>
+                                    <li class="porm_img2">
+                                        <img src="img/1XNXWa_20201203142925287.jpg">
+                                        <span><a href="#">자세히 보기</a></span>
+                                    </li>
+                                    <li class="porm_img3">
+                                        <img src="img/ymrqGG_20201201000945683.jpg">
+                                        <span><a href="#">자세히 보기</a></span>
+                                    </li>
+                                    <li class="porm_img4">
+                                        <img src="img/uX1xA2_20191227175905000.jpg">
+                                        <span><a href="#">자세히 보기</a></span>
+                                    </li>
+                                    <li class="porm_img5">
+                                        <img src="img/1XNXWa_20201203142925287.jpg">
+                                        <span><a href="#">자세히 보기</a></span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div>
+                            <nav class="slides-navigation">
+                                <a href="#" class="next">
+                                    <img src="img/right.png" alt="Next" />
+                                </a>
+                                <a href="#" class="prev">
+                                    <img src="img/left.png" alt="Previous" />
+                                </a>
+                            </nav>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="content3">
@@ -879,6 +918,15 @@
         $(".close4").animateCSS('fadeIn', { duration: 5000, });
         $(".visual2").animateCSS('slideInRight', { duration: 2500, });
         $(".visual3").animateCSS('slideInRight', { duration: 3000, });
+    });
+    $(function() {
+        var num = 0;
+        setInterval(function() {
+            num = (num + 1) % 3;
+            var slide = ['-470px', '-1310px', '-2150px'];
+            var slide1 = 'translateX(' + slide[num] + ')';
+            $('.slides-container li').css('transform', slide1).animateCSS('slideInRight', { duration: 300 });
+        }, 3000);
     });
     </script>
 </body>

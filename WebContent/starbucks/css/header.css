@@ -57,7 +57,7 @@ a {
     left: 0;
     top: 0;
     background-color: #f6f5ef;
-    z-index: 10000;
+    z-index: 111;
 }
 
 /* 로그인 부분 구성 */
@@ -78,7 +78,7 @@ a {
     left: 0px;
     width: 75px;
     height: 75px;
-    z-index: 11;
+    z-index: 101;
 }
 
 .logo img {
@@ -149,6 +149,9 @@ a {
     border: 1px solid #ccc;
     border-radius: 5px;
     z-index: 101;
+    text-indent: -10000px;
+    line-height: 16px;
+    text-align: center;
 }
 
 .icon1 {
@@ -158,6 +161,8 @@ a {
     position: absolute;
     top: 0;
     left: 0;
+    vertical-align: middle;
+    z-index: 100;
 }
 
 .icon1 img {
@@ -168,31 +173,57 @@ a {
     left: 7px;
 }
 
+.toSearch1 {
+    display: inline-block;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+}
+
+#toSearch {
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    background: #ffffff;
+    border: none;
+    border-radius: 5px;
+    color: #777;
+    font-size: 12px;
+    width: 0;
+    height: 0;
+    padding: 0 10px;
+}
+
 /* 메뉴판 구성 */
 .menu_content {
     width: 100%;
     height: 66px;
-    position: absolute;
-    top: 55px;
+    position: relative;
+    top: -57%;
     left: 0;
-    z-index: 10;
+    z-index: 99;
     font-size: 13px;
+    margin-left: -1px;
 }
 
 .menu_cont {
+    width: 100%;
     height: 66px;
     margin: auto;
-    z-index: 7;
-    position: relative;
-    margin-left: -1px;
+    z-index: 99;
+    position: absolute;
+    left: 0%;
 }
 
 .menubar {
     display: block;
     margin: auto;
     float: right;
-    margin-right: 420px;
     margin-top: 10px;
+    margin-right: 420px;
+
 }
 
 .menubar li {

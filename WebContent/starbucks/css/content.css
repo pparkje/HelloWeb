@@ -42,7 +42,7 @@ a {
     overflow: hidden;
     position: relative;
     background-size: cover;
-    z-index: 100;
+    z-index: 110;
 }
 
 .carry {
@@ -171,7 +171,6 @@ a {
     text-decoration: underline;
     color: #ffffff;
     background-color: #006C42;
-
 }
 
 .content2 {
@@ -180,7 +179,7 @@ a {
     margin: auto;
     position: relative;
     margin-top: -1px;
-    z-index: 100;
+    z-index: 99;
 }
 
 .gongback {
@@ -201,7 +200,7 @@ a {
     right: 0;
     bottom: 0;
     background-color: #ffffff;
-    background-size: cover;
+
 }
 
 .contentprom {
@@ -244,7 +243,7 @@ a {
     position: absolute;
     left: 30%;
     top: 0%;
-    min-width: 400px;
+    min-width: 382px;
     height: 61px;
     float: left;
     background-color: #000000;
@@ -260,7 +259,7 @@ a {
 }
 
 .gong11 {
-    width: 400px;
+    width: 382px;
     height: 61px;
     background-color: #000000;
 }
@@ -269,7 +268,7 @@ a {
     position: absolute;
     left: 30%;
     top: 0%;
-    min-width: 400px;
+    min-width: 382px;
     height: 61px;
     float: left;
     background-color: #000000;
@@ -285,7 +284,7 @@ a {
 }
 
 .gong12 {
-    width: 400px;
+    width: 382px;
     height: 61px;
     background-color: #000000;
 }
@@ -294,7 +293,7 @@ a {
     position: absolute;
     left: 30%;
     top: 0%;
-    min-width: 400px;
+    min-width: 382px;
     height: 61px;
     float: left;
     background-color: #000000;
@@ -310,7 +309,7 @@ a {
 }
 
 .gong13 {
-    width: 400px;
+    width: 382px;
     height: 61px;
     background-color: #000000;
 }
@@ -366,6 +365,13 @@ a {
     right: 20%;
 }
 
+.btn2 {
+    display: none;
+    position: absolute;
+    top: 20%;
+    right: 20%;
+}
+
 .menu1,
 .menu2,
 .menu3,
@@ -373,16 +379,13 @@ a {
     display: none;
 }
 
-.btn2 {
-    display: none;
-}
 
 .content3 {
     width: 100%;
     min-height: 237px;
     background-color: #1e3932;
     position: relative;
-    z-index: 100;
+    z-index: 99;
 }
 
 .content3-1 {
@@ -507,7 +510,7 @@ a {
     margin: auto;
     position: relative;
     background-size: cover;
-    z-index: 100;
+    z-index: 99;
 }
 
 .bean {
@@ -550,7 +553,7 @@ a {
     height: 400px;
     background: url(../img/reserve_xmas_bg.jpg) center center no-repeat;
     position: relative;
-    z-index: 100;
+    z-index: 99;
 }
 
 .reserve {
@@ -602,8 +605,8 @@ a {
     width: 100%;
     height: 800px;
     position: absolute;
-    top: 1900px;
-    z-index: 5;
+    top: 1905px;
+    z-index: 99;
 }
 
 .fav {
@@ -649,13 +652,13 @@ a {
 
 .content7 {
     width: 100%;
-    height: 695px;
+    height: 700px;
     background-color: #ffffff;
     background-size: cover;
     position: relative;
     top: 0;
-    margin-top: 800px;
-    z-index: 100;
+    margin-top: 805px;
+    z-index: 99;
 }
 
 .visual {
@@ -708,8 +711,9 @@ a {
     background-size: cover;
     position: relative;
     top: 0;
-    z-index: 100;
-    margin-bottom: 100px;
+    z-index: 98;
+    margin-bottom: 105px;
+
 }
 
 .store {

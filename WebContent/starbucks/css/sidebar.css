@@ -6,7 +6,7 @@
     position: fixed;
     top: 154px;
     left: 50%;
-    z-index: 102;
+    z-index: 109;
     margin-left: 570px;
 }
 
@@ -30,55 +30,113 @@
 }
 
 /* 프로모션 슬라이딩 처리 CSS */
-.content2-1 {
+.swiper-container {
+    display: none;
     width: 100%;
     height: 660px;
-    position: relative;
+    background-color: #f6f5ef;
     z-index: 100;
-    background: #f6f5ef;
 }
 
-.slide-container {
-    width: 5500px;
-    height: 660px;
-    margin: auto;
+.swiper-slide {
     text-align: center;
-    z-index: 100;
-    background-color: rgba(246, 245, 239, 0.2);
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6f5ef;
 }
 
-.slides {
-    width: 5500px;
-    height: 660px;
-    margin: auto;
-    z-index: 100;
-    margin-left: 0%;
-}
-
-.slides-container {
-    width: 100%;
-    height: 660px;
-    margin: auto;
-    background-color: rgba(246, 245, 239, 0.2);
-    z-index: 100;
-    margin-right: 100px;
-}
-
-.slides-container li {
-    display: inline-block;
-    float: left;
+.swiper-slide img {
     width: 820px;
-    background-color: rgba(246, 245, 239, 0.2);
-    z-index: 100;
-    transform: translateX(-2150px);
-    margin-right: 20px;
-    margin-top: 50px;
-
+    height: 550px;
+    background-color: #f6f5ef;
 }
 
-.aa1 {
-    width: 5500px;
-    height: 660px;
-    background-color: rgba(246, 245, 239, 0.2);
-    z-index: 110;
+.swiper-wrapper {
+    width: 820px;
+    height: 550px;
+}
+
+.swiper-pageination {
+    background: none;
+}
+
+.swiper-button-prev {
+    --swiper-theme-color: none;
+    margin-left: 420px;
+    border: 1px solid #222;
+    border-radius: 50%;
+    padding: 10px;
+    z-index: 100;
+}
+
+.swiper-button-prev:hover {
+    background-color: #cccccc;
+}
+
+.swiper-button-next {
+    --swiper-theme-color: none;
+    margin-right: 420px;
+    border: 1px solid #222;
+    border-radius: 50%;
+    padding: 10px;
+    z-index: 100;
+}
+
+.swiper-button-next:hover {
+    background-color: #cccccc;
+}
+
+.swiper-button-pause {
+    display: block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom: 4px;
+    left: 48%;
+    z-index: 100;
+}
+
+.swiper-button-play {
+    display: none;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom: 4px;
+    left: 48%;
+    z-index: 100;
+}
+
+/* 자세히 보기 */
+.bogi {
+    color: #222;
+    font-size: 14px;
+    width: 120px;
+    height: 38px;
+    border: 2px solid #222;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 10%;
+    left: 43%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.bogi a {
+    padding-top: 12px;
+    color: #222;
+    display: block;
+    width: 100%;
+}
+
+
+.bogi a:hover {
+    width: 100%;
+    height: 26px;
+    text-decoration: underline;
+    color: #ffffff;
+    background-color: #222;
 }
